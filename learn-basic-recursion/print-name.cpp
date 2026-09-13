@@ -3,7 +3,7 @@ using namespace std;
 
 void printName(string name, int count)
 {
-    if (count == 0)
+    if (count <= 0)
         return;
     cout << name << endl;
     printName(name, count - 1);
